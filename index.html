@@ -1,368 +1,245 @@
 <!DOCTYPE html>
-<html lang="en-us" >
-
-
+<html lang="en-us">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="generator" content="Wowchemy 5.7.0 for Hugo" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        .home-section-bg {
-            background-color: #f8f9fa;
-            padding: 60px 0;
-        }
-        .view-showcase {
-            border: 1px solid #e9ecef;
-            padding: 20px;
-            border-radius: 5px;
-            background-color: #fff;
-        }
-        .article-title a {
-            font-size: 1.25rem;
-            color: #007bff;
-            text-decoration: none;
-        }
-        .article-title a:hover {
-            text-decoration: underline;
-        }
-        .article-style {
-            margin-top: 10px;
-            font-size: 1rem;
-            color: #6c757d;
-        }
-    </style>
-      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
-      <link rel="stylesheet" href="/css/vendor-bundle.min.16f785cdb553c8c4431db6775122af35.css" media="print" onload="this.media='all'">
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.2/css/academicons.min.css" integrity="sha512-KlJCpRsLf+KKu2VQa5vmRuClRFjxc5lXO03ixZt82HZUk41+1I0bD8KBSA0fY290ayMfWYI9udIqeOWSu1/uZg==" crossorigin="anonymous" media="print" onload="this.media='all'">
-      <link rel="stylesheet" href="/css/wowchemy.0f229d4b7ebad1917a9a357cba2effab.css" />
-    <link rel="stylesheet" href="/css/libs/chroma/github-light.min.css" title="hl-light" media="print" onload="this.media='all'" >
-    <link rel="stylesheet" href="/css/libs/chroma/dracula.min.css" title="hl-dark" media="print" onload="this.media='all'" disabled>
-    <meta name="author" content="Lylia Abrouk" />
-<meta name="description" content="A highly-customizable Hugo academic resume theme powered by Wowchemy website builder." />
-
-<link rel="alternate" hreflang="en-us" href="#" />
-<link rel="canonical" href="#" />
-
-  <link rel="manifest" href="/manifest.webmanifest" />
-
-<link rel="icon" type="image/png" href="/media/icon_hue835e94f6b6924bb4c6799af67fb65f0_48045_32x32_fill_lanczos_center_3.png" />
-<link rel="apple-touch-icon" type="image/png" href="/media/icon_hue835e94f6b6924bb4c6799af67fb65f0_48045_180x180_fill_lanczos_center_3.png" />
-
-<meta name="theme-color" content="#1565c0" />
-
-
-<meta property="twitter:card" content="summary" />
-
-  <meta property="twitter:site" content="@wowchemy" />
-  <meta property="twitter:creator" content="@wowchemy" />
-<meta property="twitter:image" content="#" />
-<meta property="og:site_name" content="Lylia Abrouk" />
-<meta property="og:url" content="#" />
-<meta property="og:title" content="Lylia Abrouk" />
-<meta property="og:description" content="A highly-customizable Hugo academic resume theme powered by Wowchemy website builder." /><meta property="og:image" content="" /><meta property="og:locale" content="en-us" />
-<meta property="og:updated_time" content="2022-10-24T00:00:00&#43;00:00" />
-    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-    <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Lylia Abrouk" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="author" content="Lylia Abrouk">
+  <meta name="description" content="Academic profile of Lylia Abrouk - Associate Professor at the University of Burgundy">
+  <meta name="theme-color" content="#1565c0">
+  
   <title>Lylia Abrouk</title>
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="./media/icon.png">
+  
+  <!-- Stylesheets -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/academicons@1.9.2/css/academicons.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      padding-top: 70px;
+    }
+    
+    .home-section-bg {
+      background-color: #f8f9fa;
+      padding: 60px 0;
+    }
+    
+    .view-showcase {
+      border: 1px solid #e9ecef;
+      padding: 20px;
+      border-radius: 5px;
+      background-color: #fff;
+    }
+    
+    .article-title a {
+      font-size: 1.25rem;
+      color: #007bff;
+      text-decoration: none;
+    }
+    
+    .article-title a:hover {
+      text-decoration: underline;
+    }
+    
+    .article-style {
+      margin-top: 10px;
+      font-size: 1rem;
+      color: #6c757d;
+    }
+    
+    .bio-text {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    
+    .big-icon {
+      font-size: 1.5rem;
+      color: #495057;
+      transition: color 0.3s ease;
+    }
+    
+    .big-icon:hover {
+      color: #007bff;
+    }
+    
+    .network-icon {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin: 2rem 0;
+    }
+    
+    .avatar-wrapper {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    
+    .portrait-title {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    
+    .portrait-title h2 {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      margin-bottom: 1rem;
+    }
+    
+    .portrait-title h3 {
+      font-size: 1.2rem;
+      color: #495057;
+      margin-bottom: 0.5rem;
+    }
+    
+    .header--fixed {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 1030;
+    }
+    
+    .navbar-light .navbar-nav .nav-link {
+      color: rgba(0, 0, 0, 0.7);
+    }
+    
+    .navbar-light .navbar-nav .nav-link:hover {
+      color: #007bff;
+    }
+  </style>
 </head>
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#navbar-main" class="page-wrapper   " data-wc-page-id="3976528693a0108357f4928017600865" >
-
-  <script src="/site/js/wowchemy-init.min.ec9d49ca50e4b80bdb08f0417a28ed84.js"></script>
-
-<aside class="search-modal" id="search">
-  <div class="container">
-    <section class="search-header">
-
-      <div class="row no-gutters justify-content-between mb-3">
-        <div class="col-6">
-          <h1>Search</h1>
+<body id="top" data-spy="scroll" data-offset="70" data-target="#navbar-main">
+  <!-- Navigation -->
+  <header class="header--fixed">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white" id="navbar-main">
+      <div class="container-xl">
+        <div class="d-none d-lg-inline-flex">
+          <a class="navbar-brand" href="/">Lylia Abrouk</a>
         </div>
-        <div class="col-6 col-search-close">
-          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-content">
+          <span><i class="fas fa-bars"></i></span>
+        </button>
+        
+        <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+          <a class="navbar-brand" href="/">Lylia Abrouk</a>
         </div>
-      </div>
-
-      <div id="search-box">
         
-        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
-        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
-        aria-label="Search...">
+        <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+          <ul class="navbar-nav d-md-inline-flex">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#section-experience">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#talks">Talks</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#featured">Publications</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
         
-      </div>
-
-      
-      
-
-      
-
-    </section>
-    <section class="section-search-results">
-
-      <div id="search-hits">
-        
-      </div>
-
-    </section>
-  </div>
-</aside>
-
-
-
-  <div class="page-header header--fixed">
-  
-  
-  
-  
-  
-
-
-
-
-
-
-
-
-
-
-
-
-<header>
-  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
-    <div class="container-xl">
-
-      
-      <div class="d-none d-lg-inline-flex">
-        <a class="navbar-brand" href="/">Lylia Abrouk</a>
-      </div>
-      
-
-      
-      <button type="button" class="navbar-toggler" data-toggle="collapse"
-              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
-      <span><i class="fas fa-bars"></i></span>
-      </button>
-      
-
-      
-      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
-        <a class="navbar-brand" href="/">Lylia Abrouk</a>
-      </div>
-      
-
-      
-      
-      <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
-
-        
-        <ul class="navbar-nav d-md-inline-flex">
-          
-
-          
-
-              
-            
-          
-
-          <li class="nav-item">
-            <a class="nav-link " href="#about" data-target="site/#about"><span>Home</span></a>
+        <ul class="nav-icons navbar-nav flex-row ml-auto">
+          <li class="nav-item dropdown theme-dropdown">
+            <a href="#" class="nav-link" data-toggle="dropdown" aria-label="Display preferences">
+              <i class="fas fa-moon" aria-hidden="true"></i>
+            </a>
+            <div class="dropdown-menu">
+              <a href="#" class="dropdown-item js-set-theme-light">
+                <span>Light</span>
+              </a>
+            </div>
           </li>
-
-          <li class="nav-item">
-            <a class="nav-link " href="/#section-experience" data-target="#Experience"><span>Experience</span></a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link " href="/#projects" data-target="#projects"><span>Projects</span></a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link " href="/#talks" data-target="#talks"><span>Talks</span></a>
-          </li>
-
-
-          <li class="nav-item">
-            <a class="nav-link " href="/#featured" data-target="#featured"><span>Publications</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link " href="/#contact" data-target="#contact"><span>Contact</span></a>
-          </li>
-
         </ul>
       </div>
+    </nav>
+  </header>
 
-      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+  <!-- Profile Section -->
+  <section id="about" class="home-section-bg">
+    <div class="container">
+      <div id="profile">
+        <div class="avatar-wrapper">
+          <img src="./authors/admin/lylia.png" alt="Lylia Abrouk" class="rounded-circle" width="150">
+        </div>
+        
+        <div class="portrait-title">
+          <h2>Lylia Abrouk</h2>
+          <h3>Associate Professor at the University of Burgundy</h3>
+          <h3>
+            <a href="https://lib.u-bourgogne.fr" target="_blank" rel="noopener">
+              LIB, MISTEA, INRAE & Institut Agro, France
+            </a>
+          </h3>
+        </div>
 
-        <li class="nav-item">
-          <!-- <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a> -->
-        </li>
-        <li class="nav-item dropdown theme-dropdown">
-          <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
-            <i class="fas fa-moon" aria-hidden="true"></i>
-          </a>
-          <div class="dropdown-menu">
-            <a href="#" class="dropdown-item js-set-theme-light">
-              <span>Light</span>
+        <!-- Social Links -->
+        <ul class="network-icon">
+          <li>
+            <a href="#contact" aria-label="Email">
+              <i class="fas fa-envelope big-icon"></i>
             </a>
-            <!-- <a href="#" class="dropdown-item js-set-theme-dark">
-              <span>Dark</span>
+          </li>
+          <li>
+            <a href="https://scholar.google.fr/citations?hl=en&user=ehkOGlsAAAAJ&view_op=list_works&sortby=pubdate" 
+               target="_blank" rel="noopener" aria-label="Google Scholar">
+              <i class="fas fa-graduation-cap big-icon"></i>
             </a>
-            <a href="#" class="dropdown-item js-set-theme-auto">
-              <span>Automatic</span> -->
+          </li>
+          <li>
+            <a href="https://github.com" target="_blank" rel="noopener" aria-label="GitHub">
+              <i class="fab fa-github big-icon"></i>
             </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/abrouk-lylia-8651a26/" target="_blank" rel="noopener" aria-label="LinkedIn">
+              <i class="fab fa-linkedin big-icon"></i>
+            </a>
+          </li>
+          <li>
+            <a href="/uploads/resume.pdf" target="_blank" rel="noopener" aria-label="CV">
+              <i class="ai ai-cv big-icon"></i>
+            </a>
+          </li>
+        </ul>
+
+        <!-- Biography -->
+        <div class="article-style pt-2 d-flex justify-content-center">
+          <div class="bio-text">
+            <p style="text-align: justify;">
+              I have been an Associate Professor at the University of Burgundy since 2007, working in the LIB laboratory within the IEM department. My research focuses on modeling customer behavior in the financial sector and collaborating with the SKAIZen Group on fraud detection using machine learning algorithms.
+            </p>
+            <p style="text-align: justify;">
+              I hold a Master's and DEA in Computer Science from the University of Montpellier 2, and a PhD from the same university, where I specialized in document annotation and ontology enrichment. I previously held an ATER position at the Faculty of Law, University of Montpellier 1.
+            </p>
+            <p style="text-align: justify;">
+              My post-PhD research includes query enrichment, community detection, and recommendation systems, with applications in video games and customer relationship management. Currently, I focus on data analysis for intelligent decision-making in the automotive sector.
+            </p>
           </div>
-        </li>
-      </ul>
-
+        </div>
+      </div>
     </div>
-  </nav>
-</header>
-
-
-  </div>
-
-  <div class="page-body">
-<span class="js-widget-page d-none"></span>
-
-<section id="about" class="home-section wg-about-avatar  "  >
- <div class="home-section-bg " >
-   
- </div>
-  <div class="container">
-<div id="profile">
-
-  
-  <div class="avatar-wrapper">
-    <img class="avatar avatar-circle" src="./authors/admin/lylia.png" alt="Lylia Abrouk"
-         width="100" height="150">
-  </div>
-  <br> <br>
-  <div class="portrait-title">
-
-    <h2>&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbspLylia Abrouk</h2>
-
-    <h3>Associate Professor HDR at the University of Burgundy</h3>
-    
-  </div>
-
-  <ul class="network-icon" aria-hidden="true">
-    <li>
-      <a href="/#contact"  aria-label="envelope"
-         >
-        <i class="fas fa-envelope big-icon"></i>
-      </a>
-    </li>
-  
-    <li>
-      <a href="https://scholar.google.fr/citations?hl=en&user=ehkOGlsAAAAJ&view_op=list_works&sortby=pubdate" target="_blank" rel="noopener" aria-label="graduation-cap"
-         >
-        <i class="fas fa-graduation-cap big-icon"></i>
-      </a>
-    </li>
-    
-    
-    
-    
-      
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="https://github.com" target="_blank" rel="noopener" aria-label="github"
-         >
-        <i class="fab fa-github big-icon"></i>
-      </a>
-    </li>
-    
-    
-    
-    
-      
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="" target="_blank" rel="noopener" aria-label="gitlab"
-         >
-        <i class="fab fa-gitlab big-icon"></i>
-      </a>
-    </li>
-    
-    
-    
-    
-      
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="https://www.linkedin.com/in/abrouk-lylia-8651a26/" target="_blank" rel="noopener" aria-label="linkedin"
-         >
-        <i class="fab fa-linkedin big-icon"></i>
-      </a>
-    </li>
-    
-    
-    
-    
-    
-    
-    
-    
-      
-      
-    
-    <li>
-      <a href="/uploads/resume.pdf" target="_blank" rel="noopener" aria-label="cv"
-         >
-        <i class="ai ai-cv big-icon"></i>
-      </a>
-    </li>
-    
-  </ul>
-
-  
-  <div class="article-style pt-2 d-flex justify-content-center">
-    <div class="bio-text">
-      <p style="text-align: justify;">
-        I have been an Associate Professor at the University of Burgundy since 2007, working in the LIB laboratory within the IEM department. My research focuses on modeling customer behavior in the financial sector and collaborating with the SKAIZen Group on fraud detection using machine learning algorithms.
-      </p>
-      <p style="text-align: justify;">
-        I hold a Master's and DEA in Computer Science from the University of Montpellier 2, and a PhD from the same university, where I specialized in document annotation and ontology enrichment. I previously held an ATER position at the Faculty of Law, University of Montpellier 1.
-      </p>
-      <p style="text-align: justify;">
-        My post-PhD research includes query enrichment, community detection, and recommendation systems, with applications in video games and customer relationship management. Currently, I focus on data analysis for intelligent decision-making in the automotive sector.
-      </p>
-    </div>
-    
-    
-  </div>
-  
-
-</div>
-
-
-  
-
-  </div>
-</section>
-
+  </section>
 <section id="section-features" class="home-section wg-features  "  >
  <div class="home-section-bg " >
    
@@ -477,7 +354,7 @@
             <div class="card">
               <div class="card-body">
                 <div class="d-flex align-content-start">
-                  <div class="mr-2 mb-2"><img src="site/media/icons/brands/c4977ba64c48-logo-inrae.png" width="56px" height="56px" alt="University of Burgundy" loading="lazy"></div>
+                  <div class="mr-2 mb-2"><img src="./media/icons/brands/c4977ba64c48-logo-inrae.png" width="56px" height="56px" alt="University of Burgundy" loading="lazy"></div>
                   <div>
                     <div class="section-subheading card-title exp-title text-muted my-0">Délégation</div>
                     <div class="section-subheading card-title exp-company text-muted my-0">University of Montpellier</div>
@@ -513,7 +390,7 @@
             <div class="card">
               <div class="card-body">
                 <div class="d-flex align-content-start">
-                  <div class="mr-2 mb-2"><img src="site/media/icons/brands/university-of-burgundy.png" width="56px" height="56px" alt="University of Burgundy" loading="lazy"></div>
+                  <div class="mr-2 mb-2"><img src="./media/icons/brands/university-of-burgundy.png" width="56px" height="56px" alt="University of Burgundy" loading="lazy"></div>
                   <div>
                     <div class="section-subheading card-title exp-title text-muted my-0">Associate Professor</div>
                     <div class="section-subheading card-title exp-company text-muted my-0">University of Burgundy</div>
@@ -550,7 +427,7 @@
             <div class="card">
               <div class="card-body">
                 <div class="d-flex align-content-start">
-                  <div class="mr-2 mb-2"><img src="site/media/icons/brands/university-of-monpelier.png" width="56px" height="56px" alt="University of Montpellier" loading="lazy"></div>
+                  <div class="mr-2 mb-2"><img src="./media/icons/brands/university-of-monpelier.png" width="56px" height="56px" alt="University of Montpellier" loading="lazy"></div>
                   <div>
                     <div class="section-subheading card-title exp-title text-muted my-0">ATER Position</div>
                     <div class="section-subheading card-title exp-company text-muted my-0">University of Montpellier</div>
@@ -588,7 +465,7 @@
             <div class="card">
               <div class="card-body">
                 <div class="d-flex align-content-start">
-                  <div class="mr-2 mb-2"><img src="site/media/icons/brands/university-of-monpelier.png" width="56px" height="56px" alt="Inria" loading="lazy"></div>
+                  <div class="mr-2 mb-2"><img src="./media/icons/brands/university-of-monpelier.png" width="56px" height="56px" alt="Inria" loading="lazy"></div>
                   
                   <div>
                     <div class="section-subheading card-title exp-title text-muted my-0">Ph.D. Position</div>
